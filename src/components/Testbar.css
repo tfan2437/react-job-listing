@@ -1,0 +1,47 @@
+/* navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar .menu-icon {
+  display: none;
+}
+
+.navbar .menu {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar .menu {
+    display: none;
+  }
+
+  .navbar .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar .menu.responsive {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
