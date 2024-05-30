@@ -1,0 +1,19 @@
+.hero-container {
+  background: #90827b;
+  text-align: center;
+  padding: 200px;
+}
+
+h1 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+p {
+  color: #fff;
+  font-weight: 700;
+  font-size: 25px;
+
+  margin-top: 30px;
+}
