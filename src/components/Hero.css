@@ -1,17 +1,17 @@
 .hero-container {
-  background: #90827b;
+  background: #f5f5f5;
   text-align: center;
   padding: 200px;
 }
 
-h1 {
-  color: #fff;
+.hero-container h1 {
+  color: #1e1e1e;
   font-weight: 900;
   font-size: 50px;
 }
 
-p {
-  color: #fff;
+.hero-container p {
+  color: #1e1e1e;
   font-weight: 700;
   font-size: 25px;
 
