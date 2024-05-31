@@ -1,0 +1,10 @@
+.jobcard-container {
+  border: 2px solid #1e1e1e;
+  border-radius: 10px;
+
+  background: #f5f5f5;
+  padding: 20px;
+
+  min-width: 380px;
+  max-width: 380px;
+}

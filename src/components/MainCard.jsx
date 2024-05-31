@@ -1,6 +1,6 @@
-import "./Card.css";
+import "./MainCard.css";
 
-const Card = ({
+const MainCard = ({
   typeName = "For Employers",
   description = "Job description",
   buttonFunction = "Function",
@@ -19,4 +19,4 @@ const Card = ({
   );
 };
 
-export default Card;
+export default MainCard;
