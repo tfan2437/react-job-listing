@@ -7,4 +7,12 @@
 
   min-width: 380px;
   max-width: 380px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.job-info {
+  margin-bottom: 30px;
 }
