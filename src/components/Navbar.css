@@ -32,7 +32,7 @@ img {
   font-weight: 900;
 }
 
-.a-container a {
+.link-tag {
   color: #fff;
   font-size: 25px;
   font-weight: 700;
@@ -43,7 +43,19 @@ img {
   margin-right: 20px;
 }
 
-.a-container a:hover {
+.link-tag:hover {
   background: #000;
-  color: #777;
+  color: #ccc;
+}
+
+.actived-link-tag {
+  background: #000;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+
+  text-decoration: none;
+
+  padding: 20px;
+  margin-right: 20px;
 }
